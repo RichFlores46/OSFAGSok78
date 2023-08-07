@@ -111,7 +111,13 @@ const APP_SHELL =[
 "https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/css/uikit.min.css",
 "cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit.min.js",
 "https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit-icons.min.js",
-"https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v17.0"
+"https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v17.0",
+
+
+"https://code.jquery.com/jquery-3.6.0.min.js",
+"https://cdn.userway.org/widget.js",
+"https://www.google.com/recaptcha/api.js",
+"https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
 
 ];
 //Se agrega links de bootstrap, css y js
