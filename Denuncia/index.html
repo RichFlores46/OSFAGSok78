@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denuncia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../img/home-favicon.ico">
+        <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcicUInAAAAAA9fdJ_ucFPeE2_2LXnItw6Uk-_o"></script>
+
+    <!--Google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--User Way-->
+    <script src="https://cdn.userway.org/widget.js" data-account="FfyPNo0Rq8"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  
+  </head>
+<body>
+
+    <div class="row">
+      <div class="col-md-12">
+          <div class="uk-container" >
+              <div uk-navbar >
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active">
+                            <a name="" id="letrav" class="btn" href="javascript: window.history.back();" role="button">
+                                <span class="material-symbols-outlined" style="font-size: 250%;">
+                                arrow_back
+                                </span></a>
+                        </li>
+                    </ul>           
+                </div>
+                <div class="uk-navbar-center">
+                  <img src="../img/logo_osfags.png" alt="" width="150px">
+                </div>
+                <div class="uk-navbar-right">
+                </div>
+              </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <h2>Denuncia</h2>
+            <div class="col-md-8"><br/>
+                <div class="card">
+                  <form action="" method="get" enctype="multipart/form-data" id="form" onsubmit="return validacion(this)">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      <label for="" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" aria-describedby="helpId" placeholder="Ej. Juan Pérez" name="name" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                      <label for="" class="form-label">Email</label>
+                      <input type="email" class="form-control" aria-describedby="emailHelpId" placeholder="Ej. juan.pérez@gmail.com" name="email" required>
+                    </div>
+    
+                    <div class="mb-3">
+                      <label for="" class="form-label">Mensaje</label>
+                      <textarea class="form-control" rows="5" placeholder="Ingresa tu Mensaje" name="message" required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                      <div class="g-recaptcha" data-sitekey="6LdaC1QnAAAAAIDl0Z713Ahw2HAoqVLuRdGkjx3q" data-callback="enableSubmitButton"></div>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" id="button1" value="Enviar denuncia" disabled>
+                    
+                </div>
+              </form>
+
+              <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              
+              <script type="text/javascript">
+                emailjs.init('QXzlJYCAwGzVRzvrh')
+            </script>
+              </div>
+            </div>
+              <div class="col-md-3"><br/>
+                <p> <a class="btn btn-light disabled" role="button"><span class="material-symbols-outlined" >call</span></a>
+                  (449) 918 3616 
+                </p>
+    
+                <p> <a name="" id="mail" class="btn btn-danger" href="mailto:denuncias@osfags.gob.mx" role="button" >
+                  <ion-icon name="mail-outline" style=" height: 20px; width: 20px;"></ion-icon></a>
+                  denuncias@osfags.gob.mx
+                </p>
+  
+              <p> <a target="_blank" class="btn btn-primary" role="button" 
+                href="https://www.google.com/maps/place/Organo+Superior+de+Fiscalizaci%C3%B3n+del+Estado+de+Aguascalientes/@21.912196,-102.311548,15z/data=!4m6!3m5!1s0x8429ee74809cca13:0x20d6cf878d49c6de!8m2!3d21.9121957!4d-102.3115484!16s%2Fg%2F11b6qws0sv?hl=en-US&entry=ttu">
+                <ion-icon name="location-outline" style=" height: 20px; width: 20px;"></ion-icon></a>
+                Sierra Pintada 102, Bosques del Prado Sur, 20130 Aguascalientes.
+              </p>
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modaldenuncia1">
+                  Aviso de Privacidad
+                </button>
+              <br><br>
+              <div class="card">
+                <div class="card-header">
+                  <h3 style="text-align: center; font-weight: bold; font-size: 19px;">¿Por qué denunciar?</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Porque la denuncia y los datos personales serán confidenciales.</p>
+                </div>
+              </div>
+
+              </div>  
+        </div>
+    </div>
+
+    
+
+<!-- Modal -->
+<div class="modal fade" id="Modaldenuncia1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="exampleModalLabel">Aviso de Privacidad</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="../assets/pdf/ejemplo_pdf0.pdf" width="100%" height="500px" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    <p> <a class="btn" role="button" onclick="scrolly()" id="btn-arriba" ><span class="material-symbols-outlined" >arrow_upward</span></a></p>
+           <br><br><br>
+     <div class="col-12 col-md-12 col-xs-12 col-lg-12">
+        <div class="row" style="background-color: grey;">
+            <div class="col-md-6 col-xs-6 col-lg-6">
+                <div class="container">
+                <p style="color: white; text-align: center;"><br>
+                    Dirección:
+                    Sierra Pintada 102,
+                    Bosques del Prado Sur,
+                    20130 Aguascalientes.<br/>
+                    
+                  ¿Alguna pregunta?
+                  contacto@osfags.gob.mx<br/>
+                  Llámenos:
+                  (449) 918 3616<br><br>
+                  <a name="" id="mail" class="btn btn-warning" href="mailto:contacto@osfags.gob.mx" role="button"><ion-icon name="mail-outline"></ion-icon></a>
+                  <a target="_blank" name="" id="facebook" class="btn btn-light" href="https://www.facebook.com/%C3%93rgano-Superior-de-Fiscalizaci%C3%B3n-del-Estado-de-Aguascalientes-Oficial-105374757941296" role="button"><ion-icon name="logo-facebook" style="color:blue"></ion-icon></a>
+                  <a target="_blank" name="" id="youtube" class="btn btn-danger" href="https://www.youtube.com/@organosuperiordefiscalizac545" role="button"><ion-icon name="logo-youtube"></ion-icon></a>
+                  <a target="_blank" name="" id="twitter" class="btn btn-primary" href="https://twitter.com/osf_ags"" role="button"><ion-icon name="logo-twitter"></ion-icon></a>
+                </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-6 col-lg-6">
+              <img src="../img/logo2.png" alt="" id="img-logo4">
+            </div>
+          </div>
+    </div>
+
+    
+    <script src="../js/arriba.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit-icons.min.js"></script>
+    <script src="../js/denuncia.js"></script>
+    <script src="../js/recaptcha.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      
+      
+</body>
+</html>
